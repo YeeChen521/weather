@@ -1,0 +1,79 @@
+/* General Reset & Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Centering and layout */
+input,
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin: 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Result styles */
+#result {
+  margin-top: 20px;
+}
+
+#result h1 {
+  font-size: 28px;
+  color: #222;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#result div {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  margin: 10px auto;
+  padding: 15px 20px;
+  max-width: 600px;
+}
+
+#result h3,
+#result h4,
+#result h5,
+#result h7 {
+  margin: 4px 0;
+  font-weight: normal;
+}
+
+#result h3 {
+  font-size: 20px;
+  color: #007bff;
+}
+
+#result h5,
+#result h4,
+#result h7 {
+  font-size: 16px;
+}
+
+#result h7 {
+  display: block;
+  font-style: italic;
+}
